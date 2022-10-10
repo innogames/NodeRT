@@ -127,4 +127,4 @@ NAN_MODULE_INIT(init) {
   }
 }
 
-NODE_MODULE(binding, init)
+NAN_MODULE_WORKER_ENABLED(binding, init)
